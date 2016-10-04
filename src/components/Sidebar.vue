@@ -1,15 +1,25 @@
 <template lang="jade">
   .sidebar
-    ul
-      li
-        p 私の名前は中野です
-        p 私の名前も中野です
-        p 彼の名前は熊谷です
+    .app-link
+      p APP
+    .sidebar-link
+      i.zmdi.zmdi-home
+      p.sidebar-link HOME
 </template>
 
-<style scoped>
+<style lang="postcss" scoped>
   .sidebar {
+    width: 122px;
+    height: 100%;
+    background-color: #00ACC1;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    color: #fff;
+
+    &sidebar-link {
+      height: 92px;
+      background-color: #029AAD;
+    }
   }
 </style>

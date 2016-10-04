@@ -1,24 +1,27 @@
 <template>
   <div id="app">
-    <hello></hello>
+    <header-nav></header-nav>
     <sidebar></sidebar>
+  </div>
 </template>
 
 <script>
-import Hello from './components/Hello';
+import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 
 export default {
   components: {
-    Hello,
+    Header,
     Sidebar,
   },
 };
 </script>
 
-<style>
+<style lang="postcss">
 html {
   height: 100%;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 body {
@@ -26,7 +29,9 @@ body {
 }
 
 #app {
+  height: 100%;
   color: #2c3e50;
-  font-family: 'Open Sans','Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif !default;
+  background-color: #FAFAFA;
+  font-family: 'Open Sans','Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
 }
 </style>
