@@ -1,18 +1,23 @@
 <template>
   <div id="app">
-    <header-nav></header-nav>
+    <nav></nav>
     <sidebar></sidebar>
+    <contents></contents>
+    <footer-content></footer-content>
   </div>
 </template>
 
 <script>
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
+import Contents from './components/Contents';
+import Footer from './components/Footer';
 
 export default {
   components: {
     Header,
     Sidebar,
+    Footer,
   },
 };
 </script>
@@ -61,7 +66,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+img {
+  width: 100%;
+}
 
 html {
   height: 100%;
@@ -77,31 +84,11 @@ body {
   height: 100%;
   color: #2c3e50;
   background-color: #FAFAFA;
-  font-family: 'Open Sans','Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+  font-family: '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
 }
 
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
-  font-feature-settings: 'liga';
+.container {
+  width: 960px;
 }
+
 </style>

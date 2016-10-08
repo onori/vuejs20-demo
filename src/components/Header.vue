@@ -1,7 +1,8 @@
 <template lang="jade">
-  header-nav.header-nav
-    p search
-    p あいうえお
+  nav
+    .header-nav
+      p search
+      p あいうえお
 </template>
 
 <style lang="postcss" scoped>

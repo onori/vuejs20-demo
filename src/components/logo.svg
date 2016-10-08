@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="242px" height="47px" viewBox="0 0 242 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" fill="#6A4C9C">
+            <rect id="Rectangle" x="0" y="21" width="17" height="26"></rect>
+            <rect id="Rectangle" x="23" y="14" width="17" height="33"></rect>
+            <rect id="Rectangle" x="46" y="0" width="17" height="47"></rect>
+            <text id="Growth" font-family="Quicksand-Light, Quicksand" font-size="48" font-weight="300">
+                <tspan x="68" y="44">Growth</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

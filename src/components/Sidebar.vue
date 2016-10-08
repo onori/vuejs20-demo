@@ -2,13 +2,13 @@
   .sidebar
     .sidebar-content
       .app-link
-        p APP
+        img(src='./logo.svg')
       .sidebar-link
         i.material-icons home
-        .sidebar-title HOME
+        .sidebar-title ホーム
       .sidebar-link
-        i.zmdi.zmdi-home
-        p.sidebar-link HOME
+        i.material-icons account_circle
+        p.sidebar-title ユーザー
 </template>
 
 <style lang="postcss" scoped>
@@ -22,32 +22,41 @@
     color: #fff;
   }
   .sidebar-content {
-    justify-content: center;
-    align-items: center;
     height: 100%;
   }
   .app-link {
     height: 70px;
     display: flex;
+    align-content: center;
     justify-content: center;
     align-items: center;
+    background-color: #FFF;
+  }
+  .app-link img {
+    width: 85%;
   }
   .sidebar-link {
     height: 92px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .sidebar-title {
+    display: block;
     width: 100%;
     display: flex;
     align-content: center;
     justify-content: center;
     align-items: center;
   }
-  .sidebar-title {
-    display: flex;
-    width: 100%;
-  }
   .sidebar-link:hover {
     background-color: #029AAD;
   }
   .material-icons {
+    display: block;
     font-size: 36px;
   }
 </style>
